@@ -11,6 +11,7 @@ import PostWritePage from './components/pages/PostWritePage';
 import Hook from './hook/Hook';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
+import React_w3 from './pages/react_w3';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           {/* <Route path="/miniblog/post/:postId" element={<PostViewPage />} /> */}
 
           <Route path="/contact" element={<Contact />} />
+          <Route path="/react_w3" element={<React_w3 />} />
         </Routes>
       </MainContent>
       <Footer />

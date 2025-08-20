@@ -95,6 +95,9 @@ function Navigation() {
         <NavItem>
           <NavLink to="/contact">Contact Us</NavLink>
         </NavItem>
+        <NavItem>
+          <NavLink to="/react_w3">React_w3</NavLink>
+        </NavItem>
 
       </NavList>
     </Nav>
